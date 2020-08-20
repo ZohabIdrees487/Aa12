@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class Answer: MonoBehaviour
 {
     public string value, value1;
-    public InputField inputField, inputField1;
+    public InputField inputField, inputField1, inputField2, inputField3;
     public GameObject display_text;
-    public bool correct,incorrect, correct1, incorrect1;
-    public GameObject popUpPannel, popUpPannel2;
+    private bool correct,incorrect, correct1, incorrect1;
+    public GameObject GameWinpopUp, GameLosepopUp;
 
     public void check()
     {
@@ -34,22 +34,22 @@ public class Answer: MonoBehaviour
         }
         value1 = inputField1.text;
 
-        validate();
+        //validate();
     }
 
   
     public void validate()
-    {   if (correct == true && correct1 == true)
+    {   if (correct == true && correct1 == true)//(correct && correct1  && correct2 && correct3)
         {
             //Debug.Log("asdas");
-            popUpPannel.SetActive(true);
+            GameWinpopUp.SetActive(true);
 
         }
         //value = inputField.text;
         //display_text = inputField.GetComponent<Text>().text = "this " + value + " this is input";
         else
         {
-            popUpPannel2.SetActive(true);
+            GameLosepopUp.SetActive(true);
         }
 
     }

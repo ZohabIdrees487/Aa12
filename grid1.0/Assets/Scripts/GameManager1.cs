@@ -10,7 +10,9 @@ public class GameManager : MonoBehaviour
     public Image[] image;
     public bool check1, check2,check3;
     public GameObject pop_up_game_finish;
-    public GameObject[] btn;    // Start is called before the first frame update
+    public GameObject[] btn;   
+    
+    // Start is called before the first frame update
     void Start()
     {
         instance = this;
@@ -38,14 +40,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (check1 && check2)
+        if (check1 )
         {
             Invoke("pause_pop", 2f);
         }
-        else if(check3)
+       /* else if(check3)
         {
             Invoke("pause_pop", 2f);
-        }
+        }*/
     }
     public void click(string str)
     {

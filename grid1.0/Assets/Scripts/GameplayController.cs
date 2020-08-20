@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -29,3 +29,4 @@ public class GameplayController : MonoBehaviour
         SceneManager.LoadScene("Scenes/SampleScene");
     }
 }
+*/

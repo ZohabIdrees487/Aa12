@@ -9,15 +9,30 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: eac360a7eb636674c9e34f40ae279858
   - enabled: 1
-    path: Assets/Scenes/level 2.unity
-    guid: 5a5653107d3297048acc067cd08c07f9
-  - enabled: 1
-    path: Assets/Scenes/Regx1.unity
-    guid: 13f8f6b218aaa444c9adf0aa5b2fcdc9
+    path: Assets/Scenes/MainMenu 2.unity
+    guid: 48ec98bfd842cd440a8267f2d02005a2
   - enabled: 1
     path: Assets/Scenes/level 11.unity
     guid: 3480d33d2f22cf54cbabe37e03f0f9a1
   - enabled: 1
-    path: Assets/Scenes/MainMenu_Options.unity
-    guid: 4d89f9524accc334d8d9aedcd0f1dee5
+    path: Assets/Scenes/level 2.unity
+    guid: 5a5653107d3297048acc067cd08c07f9
+  - enabled: 1
+    path: Assets/Scenes/level 3.unity
+    guid: e23e2b001b249af478de5d6deb2480d4
+  - enabled: 1
+    path: Assets/Scenes/level 4.unity
+    guid: 2aad46cfa18f66b4a8c362d153e2f054
+  - enabled: 1
+    path: Assets/Scenes/level 5.unity
+    guid: 714e10fc95c6acd499bcd5313b05e889
+  - enabled: 1
+    path: Assets/Scenes/Regx 1.unity
+    guid: 191ee686b054b9e488e8b2e65b9bf22c
+  - enabled: 1
+    path: Assets/Scenes/Regx2.unity
+    guid: 13f8f6b218aaa444c9adf0aa5b2fcdc9
+  - enabled: 1
+    path: Assets/TextWriter/GameScene_TextWriter.unity
+    guid: ee6de472287a72043825751cbe632016
   m_configObjects: {}

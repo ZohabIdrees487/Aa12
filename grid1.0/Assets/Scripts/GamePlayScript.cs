@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEditorInternal;
+//using UnityEditorInternal;
 using UnityEngine.Analytics;
 
 public class GamePlayScript : MonoBehaviour
@@ -118,6 +118,15 @@ public class GamePlayScript : MonoBehaviour
             wrongans = "";
         }
     }
+
+    public void RetunMainMenu()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(5);
+    }
     public void Reset()
     {
 
@@ -212,7 +221,7 @@ public class GamePlayScript : MonoBehaviour
 
     public void retry()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Level 4");
     }
     public void colordelaytime(int i)
     {

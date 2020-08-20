@@ -9,6 +9,7 @@ public class GamePlay4 : MonoBehaviour
     public string Result2 = "11";
     public string Result3 = "00";
     public bool r1, r2, r3;
+    public GameObject gameWinPopup;
 
     // Start is called before the first frame update
     void Start()
@@ -93,5 +94,12 @@ public class GamePlay4 : MonoBehaviour
             Destroy(this.gameObject);
         }
         
+    }
+    public void gamewinpopup()
+    {
+        if (r1& r2 & r3)
+        {
+            gameWinPopup.SetActive(true);
+        }
     }
 }
